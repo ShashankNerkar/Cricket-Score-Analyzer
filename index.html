@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Score Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>🏏 Cricket Score Analyzer</h1>
+
+    <div class="section">
+      <h2>Match Details</h2>
+
+      <input type="number" id="targetScore" placeholder="Target Score">
+      <input type="number" id="currentScore" placeholder="Current Score">
+      <input type="number" id="oversPlayed" placeholder="Overs Played">
+      <input type="number" id="totalOvers" placeholder="Total Overs">
+    </div>
+
+    <div class="section">
+      <h2>Player Details</h2>
+
+      <input type="number" id="runs" placeholder="Runs">
+      <input type="number" id="balls" placeholder="Balls Faced">
+      <input type="number" id="fours" placeholder="Fours">
+      <input type="number" id="sixes" placeholder="Sixes">
+    </div>
+
+    <button id="analyzeBtn">Analyze Match</button>
+
+    <div class="result">
+      <h2>Results</h2>
+
+      <p id="strikeRate"></p>
+      <p id="boundaryRuns"></p>
+      <p id="boundaryPercentage"></p>
+      <p id="runRate"></p>
+      <p id="runsNeeded"></p>
+      <p id="ballsLeft"></p>
+      <p id="requiredRR"></p>
+      <p id="performance"></p>
+      <p id="matchStatus"></p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
